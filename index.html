@@ -5,106 +5,156 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
+    <style>
+      table,
+      th,
+      td {
+        border: 1px solid black;
+      }
+    </style>
   </head>
   <body>
-    <!-- A. This is container, that wraps everything -->
+    <!-- Container, wraps everything -->
     <div id="container">
-      <!-- 1. This is header -->
+      <!-- 1. this is header -->
       <header>
-        <!-- Header Image -->
-        <img
-          src="images/cliff_ocean.jpg"
-          alt="Ocean View Clif"
-          width="1280"
-          height="564"
-        />
-        <div class="main-header">
-          <!-- This is logo -->
+        <div id="main-header">
+          <!-- Logo -->
           <div class="logo">
-            <!-- <h3>Great Cliff's Logo</h3> -->
-            <img src="images/logo.png" alt="Great Cliffs Logo" width="125" />
+            <!-- <h3>Logo Here</h3> -->
+            <img src="images/logo.png" alt="Logo" width="125" />
           </div>
 
-          <!-- This is nav -->
+          <!-- this is main menu -->
           <nav class="main-menu">
+            <!-- use of list -->
             <ul>
-              <li>Home</li>
-              <li>Cliffs</li>
-              <li>Event</li>
-              <li>Contact</li>
+              <li>
+                <a href="index.html">Home</a>
+              </li>
+              <li>
+                <a href="tips.html"> Adoption Tips </a>
+              </li>
+              <li>
+                <a href="contact.html"> Contact </a>
+              </li>
             </ul>
           </nav>
         </div>
       </header>
-      <!-- 2. This is main area -->
-      <main>
-        <h2>Introducing California's Greatest Cliffs</h2>
 
-        <h3>What is so unique about California cliffs?</h3>
+      <!-- 2. this is main -->
+      <main>
+        <!-- banner image -->
+        <img
+          src="images/home-banner.jpeg"
+          alt="All Pet Banner Image"
+          width="1280"
+        />
+
+        <!-- Primary heading -->
+
+        <h2>Pet adoption</h2>
+        <!-- primary content -->
         <p>
-          California cliffs are one of a kind in the United States where no
-          cliffs are as magnificent and beautiful as them. And California is the
-          only state that have cliffs that fronts all possible environments:
-          sea, river, mountains and canyons. There are four such individual
-          unique cliffs: West Cliff, North Cliff, East Cliff and South Cliff.
-          All offer fantastic overlooking views, recreational areas, camping
-          sites, wildlife watch spots and overnight cabins.
+          The process of transferring responsibility for a pet that was
+          previously owned by another party such as a person, shelter, or rescue
+          organization
         </p>
 
-        <h3>Where are these cliffs?</h3>
+        <br />
+
+        <!-- Secondary Information -->
+        <h3>Adoption process</h3>
         <p>
-          Located within a 100 mile radius from Irvine, California, they can be
-          reached by roads easily. The closest cliff to Irvine is West Cliff,
-          which is the most popular and most visited.
+          The central issue in adoption is whether the new adopter can provide a
+          safe, secure, and permanent home for the adopted pet. Responsible
+          shelters, pounds, and rescue organizations refuse to supply pets to
+          people whom they deem ineligible based on assessing their inability to
+          supply the adopted animal with a suitable home.
         </p>
       </main>
 
-      <!-- 3. This is section -->
+      <!-- 3. this is section -->
       <section>
-        <ul id="partners">
-          <li class="partner">
-            <h3>Partner 1 Image</h3>
-          </li>
-          <li class="partner">
-            <h3>Partner 2 Image</h3>
-          </li>
-          <li class="partner">
-            <h3>Partner 3 Image</h3>
-          </li>
-          <li class="partner">
-            <h3>Partner 4 Image</h3>
-          </li>
-          <li class="partner">
-            <h3>Partner 5 Image</h3>
-          </li>
-          <li class="partner">
-            <h3>Partner 6 Image</h3>
-          </li>
-        </ul>
+        <!-- this is table -->
+        <table>
+          <caption>
+            Available Pets
+          </caption>
+          <tbody>
+            <tr>
+              <th>Species</th>
+            </tr>
+            <!-- Cats -->
+            <tr>
+              <td>Cat</td>
+              <td>
+                <img
+                  src="https://placekitten.com/200/200"
+                  alt="1st Kitten"
+                  width="125"
+                />
+              </td>
+              <td>
+                <img
+                  src="https://placekitten.com/300/300"
+                  alt="2nd Kitten"
+                  width="125"
+                />
+              </td>
+              <td>
+                <img
+                  src="https://placekitten.com/400/400"
+                  alt="3rd Kitten"
+                  width="125"
+                />
+              </td>
+            </tr>
+
+            <!-- Dogs -->
+            <tr>
+              <td>Dog</td>
+              <td>
+                <img
+                  src="https://place-puppy.com/125x125"
+                  alt="1st Dog"
+                  width="125"
+                />
+              </td>
+              <td>
+                <img
+                  src="https://place-puppy.com/200x200"
+                  alt="2nd Dog"
+                  width="125"
+                />
+              </td>
+              <td>
+                <img
+                  src="https://place-puppy.com/300x300"
+                  alt="3rd Dog"
+                  width="125"
+                />
+              </td>
+            </tr>
+          </tbody>
+        </table>
       </section>
 
-      <!-- 4. This is footer -->
+      <br />
+      <!-- 4. this is footer -->
       <footer>
-        <!-- This is Non Disclaimer -->
-        <div id="nondisclaimer">
-          <div class="copy">&copy; Copyright 2020 :: GreatCliffs.com</div>
-          <!-- This is social -->
+        <div class="non-disclaimer">
+          <!-- social -->
           <div class="social">
-            <h3>
-              <!-- Some text here -->
-              Facebook Image Instagram Image Twitter Image
-            </h3>
+            <ul>
+              <li>Instagram Link</li>
+              <li>Facebook Link</li>
+            </ul>
           </div>
-        </div>
 
-        <!-- This is disclaimer -->
-        <div id="disclaimer">
-          <p>
-            <!-- Some text here -->
-            This website is designed and created solely for educational purposes
-            only at Westcliff University. All contents are not intended for any
-            commercial gain or use.
-          </p>
+          <!-- copyright -->
+          <div class="copy">&copy; Copyright 2022</div>
         </div>
       </footer>
     </div>
