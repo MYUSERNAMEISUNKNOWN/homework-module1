@@ -1,0 +1,370 @@
+/* Embed Style Method */
+
+* {
+  margin: 0;
+  padding: 0;
+}
+/* Header */
+header {
+  background: url(images/central_park.jpg) 0 -200px no-repeat;
+
+  /* New CSS */
+  width: 100%;
+  min-height: 400px;
+  padding-top: 3em;
+}
+#home header {
+  background: no-repeat lightgrey url(images/cliff_ocean.jpg);
+  background-size: 1500px;
+}
+#activities header {
+  background: no-repeat lightgrey url(images/runfly.jpeg);
+  background-size: 1500px;
+}
+#contact header {
+  background: no-repeat lightgrey url(images/cliff_rock.jpeg);
+  background-size: 1500px;
+}
+#cliffs header {
+  background: no-repeat lightgrey url(images/forest_cliff.jpeg);
+  background-size: 1500px;
+}
+
+.main-header {
+  background-color: rgb(255, 255, 255, 0.8);
+  width: 700px;
+  margin: 2em auto 0 auto;
+  min-height: 100px;
+  height: 100px;
+}
+
+.main-header .logo img {
+  width: 100px;
+  height: 100px;
+  margin: 0 2em 0 0;
+  float: left;
+}
+
+/* Main Menu */
+.main-menu {
+  margin-left: 227px;
+  font-weight: 400;
+}
+
+.main-menu ul li {
+  list-style-type: none;
+  display: inline-block;
+  /* Ignored when using inline block */
+  float: left;
+  padding-left: 25px;
+  padding-right: 25px;
+  border-left: 1px solid rgba(202, 204, 202, 0.6);
+  line-height: 100px;
+  text-transform: uppercase;
+  font-size: 14px;
+}
+
+.main-menu ul li a {
+  text-decoration: none;
+  color: #888;
+}
+
+.main-menu ul li a:hover {
+  color: #9ed034;
+}
+.main-menu ul li.active {
+  background: #9ed034;
+  border: none;
+}
+.main-menu ul li.active a {
+  color: #fff;
+}
+
+/* Main  */
+main {
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 100px;
+}
+
+main h1 {
+  color: #9ed034;
+  font-size: 2em;
+  margin-bottom: 1em;
+}
+
+main h2 {
+  color: #333;
+  font-size: 1.5em;
+  margin-bottom: 0.8em;
+}
+
+main p {
+  color: #333;
+}
+
+.qna {
+  margin-bottom: 2.5em;
+}
+
+/* Section (Partners) */
+section {
+  width: 100%;
+  background: #4288c3;
+}
+
+section #partners {
+  width: 1200px;
+  padding: 2em 0;
+  margin: 0 auto;
+  text-align: center;
+}
+section #partners .partner {
+  display: inline-block;
+  margin: 0 0.75em;
+  padding: 1.3em 1.5em;
+  background: #fff;
+  border-radius: 50%;
+}
+
+section #partners .partner img {
+  width: 90px;
+  height: 90px;
+}
+
+/* Activities */
+table {
+  width: 1000px;
+  margin: 4em auto 0 auto;
+}
+
+caption {
+  background: #852b1b;
+  height: 40px;
+  color: #fff;
+  font-size: 1.3em;
+  font-weight: bold;
+  padding-top: 1em;
+}
+
+/* Contact */
+.form-container {
+  width: 50%;
+}
+.selectmenu {
+  display: flex;
+  align-items: baseline;
+}
+
+.selectmenu select {
+  margin-left: 2em;
+  min-width: 150px;
+  text-align: center;
+}
+
+.form-header {
+  padding: 0 0.25em;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #4977d1;
+}
+
+#contact .radios {
+  display: flex;
+  align-items: baseline;
+}
+
+#contact .radios label {
+  padding-right: 2em;
+}
+
+form {
+  margin-top: 2em;
+}
+fieldset {
+  padding: 0.5em 1.5em;
+  border: 2px solid #9ed034;
+}
+label {
+  display: block;
+  margin: 15px 0 0 0;
+  font-weight: bold;
+}
+
+input {
+  /* width: 300px; */
+  /* width: 500px; */
+  /* width: 50%; */
+  width: 100%;
+  padding: 0.25em;
+}
+
+input[type="radio"] {
+  width: 25px;
+}
+
+textarea {
+  /* width: 300px; */
+  /* width: 50%; */
+  width: 100%;
+  min-height: 200px;
+}
+
+input[type="submit"] {
+  display: block;
+  margin: 20px 0 10px 0;
+  width: 100px;
+  background-color: #4977d1;
+  color: white;
+  border: none;
+  /* border: 1px solid #4977d1; */
+  align-self: center;
+  float: right;
+  padding: 0.5em 0.5em 0.5em;
+  font-weight: bold;
+}
+
+thead {
+  background: #bde1ff;
+}
+
+tbody {
+  background: #eeffe6;
+  text-align: center;
+}
+
+th,
+td {
+  width: 225px;
+  height: 75px;
+  vertical-align: middle;
+  border: 1px solid #852b1b;
+}
+
+th:first-child {
+  width: 125px;
+  height: 50px;
+  background: #4977d1;
+  color: #fff;
+}
+
+td:first-child {
+  font-weight: bold;
+  background: #bde1ff;
+}
+
+/* Contact */
+
+#contact .contactinfo {
+  margin-top: 2em;
+}
+
+.phone {
+  margin-bottom: 0.75em;
+}
+.email {
+  margin-bottom: 0.75em;
+}
+
+/* Footer */
+footer {
+  width: 100%;
+  height: 155px;
+  padding-bottom: 1em;
+  background: #ecfab8;
+}
+
+footer #nondisclaimer .copy {
+  padding: 3.5em 3.5em 3.5em 13em;
+  float: left;
+  font-size: 0.9em;
+}
+footer #nondisclaimer .social {
+  padding: 2.5em;
+  margin-right: 9.25em;
+  float: right;
+}
+
+footer #nondisclaimer .social .fa {
+  padding: 15px;
+  font-size: 15px;
+  width: 15px;
+  text-align: center;
+  text-decoration: none;
+  margin: 0 4px;
+  border-radius: 50%;
+  /* white text for all */
+  color: white;
+}
+
+footer #nondisclaimer .social .fa:hover {
+  opacity: 0.7;
+}
+
+footer #nondisclaimer .social .fa-facebook {
+  background: #3b5998;
+}
+footer #nondisclaimer .social .fa-twitter {
+  background: #55acee;
+}
+footer #nondisclaimer .social .fa-instagram {
+  background: #125688;
+}
+
+footer #disclaimer {
+  clear: both;
+}
+footer #disclaimer p {
+  font-size: 0.85em;
+  text-align: center;
+}
+
+/* Cliffs */
+
+#four-cliffs {
+  width: 100%;
+  margin-bottom: 2em;
+}
+.cliffs-container {
+  display: grid;
+  grid-template-columns: auto auto;
+  background-color: white;
+  padding: 0 10em;
+}
+.cliff {
+  padding: 20px;
+}
+.cliff-header {
+  width: 100%;
+  line-height: 2.5em;
+  background: #852b1b;
+  text-align: center;
+  font-weight: bold;
+  color: white;
+}
+.cliff-image {
+  width: 100%;
+  object-fit: cover;
+}
+
+/* Contact Additional CSS */
+.randomcode {
+  padding: 1rem 0;
+  display: flex;
+}
+.randomcode input {
+  width: 150px;
+  padding: 0.1em 0.2em;
+  display: block;
+}
+
+.randomcode #codes {
+  /* padding: 1.5rem; */
+  line-height: 2.5em;
+  padding: 0 0.5em;
+  background-color: #c2c2c2;
+  width: 100px;
+  margin-left: 1rem;
+  text-align: center;
+  font-weight: bold;
+  font-size: 20px;
+}
